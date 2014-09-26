@@ -1,6 +1,6 @@
 {
   "name": "serv-imgs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "tiny static server that allows you to preview all images in project",
   "main": "index.js",
   "scripts": {
