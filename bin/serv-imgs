@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+var serv = require('../index');
+var minimist = require('minimist');
+var fs = require('fs');
+
+var argv = minimist(process.argv.slice(2), {
+    alias: { h: 'help' }
+});
+
+function printHelp() {
+  fs.createReadStream(__dirname + '/usage.txt').pipe(process.stdout);
+}
+
+if (argv.help) {
+  printHelp();
+  return;
+} else {
+  serv();
+}

@@ -1,0 +1,42 @@
+{
+  "name": "serv-imgs",
+  "version": "0.1.0",
+  "description": "tiny static server that allows you to preview all images in project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages-deploy"
+  },
+  "author": "meandave",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages-deploy": "^0.1.1",
+    "ls-stream": "^1.0.0",
+    "mime": "^1.2.11",
+    "minimist": "^1.1.0",
+    "routes-router": "^4.1.1",
+    "send-data": "^3.3.3",
+    "st": "^0.5.1"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "gh-pages-deploy": {
+    "staticpath": "example"
+  },
+  "keywords": [
+    "server",
+    "static",
+    "images",
+    "preview"
+  ],
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meandavejustice/serv-imgs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meandavejustice/serv-imgs/issues"
+  },
+  "homepage": "https://github.com/meandavejustice/serv-imgs"
+}
